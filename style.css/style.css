@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2A2A2A;
+}
+
+.fs-18{
+    font-size: clamp(0.75rem, 0.6389rem + 0.5556vw, 1.125rem)!important;
+    font-weight: 600!important;
+}
+.fs-40{
+    font-size: clamp(2.5rem, 1.7593rem + 3.7037vw, 5rem);
+}
+.fs-12{
+    font-size: clamp(0.75rem, 0.5648rem + 0.9259vw, 1.375rem)!important;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: clamp(1.5625rem, 1.3218rem + 1.2037vw, 2.375rem);
+    font-weight: 600;
+    color: #FFFFFF;
+}
+p{
+    font-size: clamp(0.75rem, 0.4907rem + 1.2963vw, 1.625rem);
+    text-transform: capitalize;
+    font-weight: 400!important;
+
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: #9BD0F6!important; 
+    font-size: 42px;
+    font-weight: 800;
+}
+.text-secondary{
+    color: #239AEE!important;
+}
+
+.text-bg-primary {
+    color: #fff !important;
+    background-color: #239AEE;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #9BD0F6;
+}
+.bg-secondary {
+background-color: #4d8ae6!important;
+}
+.bg-info {
+    background-color: #242425!important;
+}
+
+
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: #239AEE !important;
+}
+
+/* navbar */
+.nav-item .nav-link.active{
+    background-color: #239AEE ;
+    border-radius: 5px;
+  
+    
+    
+    
+}
+.banner-gradient{
+    background: linear-gradient(0deg, rgba(17, 7, 128, 0.681), rgba(212, 209, 209, 0.242), rgba(45, 19, 194, 0.692));
+    
+}
+/* banner-section */
+.banner-section{
+    height: 500px;
+    margin-top: 50px;
+}
+/* about-section */
+.about-section{
+    margin-top:30px;
+    height: 400px;
+}
+/* hire-section */
+.hire{
+    height: 500px;
+    margin-top: 40px;
+}
+/* work-section */
+.work-section{
+    height: 550px;
+
+}
+.work-section .work-img-container-one{
+    height: 350px;
+    background-image: url(../image/uiux\ portfolio.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.614);
+    background-blend-mode: overlay;
+    
+}
+.work-section .work-img-container-two{
+    height: 350px;
+    background-image: url(../image/webdevelopmentportfolio.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.614);
+    background-blend-mode: overlay;
+    
+}
+.work-section h4{
+    text-decoration: none;
+}
+/* skill-section */
+.skill-section{
+    height: 300px;
+ /* background-color: #4d8ae6; */
+ margin-top: 50px;
+}
+/* service-section */
+.service-section{
+    height: 450px;
+    margin-top: 50px;
+}
+.service-section .accordion i{
+    color: white;
+}
+.accordion {
+    --bs-accordion-color:white;
+    --bs-accordion-bg: #242425;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+    
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg:#242425;
+    --bs-accordion-btn-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-plus" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/></svg>');
+    
+    --bs-accordion-btn-active-icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-dash" viewBox="0 0 16 16"><path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/></svg>');
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
+   
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: #242425;
+}
+.accordion-item {
+    color: white;
+    background-color: #242425;
+    border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)
+}
+/* contact */
+.contact-section{
+    height: 600px;
+    margin-top: 50px;
+}
+textarea.form-control {
+    min-height: 150px;
+}
+/* progree-section */
+.progress-section{
+    height: 500px;
+    margin-top: 0px;
+}
+/* footer */
+footer{
+    height: 400px;
+    /* background-color: #242425; */
+    margin-top: 100px;
+
+}
+footer .container{
+    background-color: #5C5C5C;
+    height: 100%;
+}
+.footer-icons{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #5C5C5C ;
+    color: white;
+    
+    height: 100px;
+}
+
+
+/* mediaqueary */
+@media only screen and (max-width: 1400px){
+    .banner-section .btn{
+        font-size: 12px;
+        width: 30%;
+      
+    }
+    .banner-section img{
+       height: 450px;
+       width: 500px;
+        object-fit: cover;
+       object-position: start; 
+    }
+
+}
+@media only screen and (max-width: 1000px){
+    .progress-section{
+        height: auto;
+    }
+    .contact-section{
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .service-section{
+        height: auto;
+    }
+    .hire{
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width:990px){
+    .banner-section{
+        height: auto;
+    }
+    .banner-section img{
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 20px;
+     } 
+     
+}
+@media only screen and (max-width: 600px) {
+    .banner-section .btn{
+        font-size: 12px;
+        width: 40%;
+      
+    }
+}
+@media only screen and (max-width: 400px){
+
+    .banner-section .btn{
+        font-size: 12px;
+        width: 35%;
+      
+    }
+    .banner-section img{
+        height: 250px;
+        width: 300px;
+        object-fit: cover;
+        object-position: center;
+        margin-top: 20px;
+     } 
+     
+}
+    /* about */
+    @media only screen and (max-width:990px){
+        .about-section{
+            height: auto;
+            
+        }
+    }
+    /* hire */
+    @media only screen and (max-width:990px){
+        .hire{
+            height: auto;
+            
+        }
+        .hire img{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    /* hire */
+    @media only screen and (max-width:990px){
+        .hire{
+            height: auto;
+            
+        }
+       .hire .text-container{
+        width: 100%;
+       }
+       .work-section{
+           height: auto;
+       }
+    }
+    /* skill */
+    @media only screen and (max-width:990px){
+        .skill-section{
+            height: auto;
+            margin-top: 100px;
+            
+        }
+        footer{
+            height: auto;
+        }
+        .footer-container{
+            height: auto;
+        }
+        .footer-icons{
+            height: auto;
+        
+        }
+    }
+   
