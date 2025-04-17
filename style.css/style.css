@@ -125,6 +125,13 @@ background-color: #4d8ae6!important;
  /* background-color: #4d8ae6; */
  margin-top: 50px;
 }
+.skill-section .progress{
+    height: 20px;
+    background-color: #242425;
+    border-radius: 5px;
+}
+
+
 /* service-section */
 .service-section{
     height: 450px;
@@ -151,8 +158,18 @@ background-color: #4d8ae6!important;
 .accordion-item {
     color: white;
     background-color: #242425;
+    /* border: none; */
     border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)
 }
+.accordion-item.active .accordion-header{
+    background-color: red;
+    border: 0px solid transparent;
+}
+
+
+
+
+
 /* contact */
 .contact-section{
     height: 600px;
